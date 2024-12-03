@@ -1,0 +1,6 @@
+camp-env/
+.env
+*.pyc
+__pycache__/
+.env.local
+.env.*.local

@@ -16,7 +16,11 @@ Useful lists / info / data to have on hand:
 List of NPS campsites, open/close dates
 List of USFS campsites
 
-> Backpacking is tougher because you need to plan out start to end 
+## NPS API
+> (Pdb) camp.keys()
+dict_keys(['id', 'url', 'name', 'parkCode', 'description', 'latitude', 'longitude', 'latLong', 'audioDescription', 'isPassportStampLocation', 'passportStampLocationDescription', 'passportStampImages', 'geometryPoiId', 'reservationInfo', 'reservationUrl', 'regulationsurl', 'regulationsOverview', 'amenities', 'contacts', 'fees', 'directionsOverview', 'directionsUrl', 'operatingHours', 'addresses', 'images', 'weatherOverview', 'numberOfSitesReservable', 'numberOfSitesFirstComeFirstServe', 'campsites', 'accessibility', 'multimedia', 'relevanceScore', 'lastIndexedDate'])
+
+
 
 **Loose and hard constraints**
 - dates
@@ -58,3 +62,6 @@ Some way to narrow in area:
 draw on map, enter list of state codes, within X hours of Y driving,
 
 * + - + = 
+
+## Misc
+> Backpacking is tougher because you need to plan out start to end 
