@@ -1,0 +1,60 @@
+# overplans
+
+Task states: TODO, DONE, HOLD, 
+Note types: IDEA, NOTE, IMPROVEMENT
+
+PLAN 
+- [ ] **PLAN** split the agent into different parts 
+- [ ] **PLAN** brainstorm use cases
+
+
+TODO
+- [ ] **TODO** determine the neccessary parts
+- [ ] **TODO** look up availability
+
+Useful lists / info / data to have on hand:
+List of NPS campsites, open/close dates
+List of USFS campsites
+
+> Backpacking is tougher because you need to plan out start to end 
+
+**Loose and hard constraints**
+- dates
+- length of stay
+- 
+
+**Questions**
+- How often do the data sources need to be updated
+- How do I sanitize and parse info from web searches
+- What APIs do I need access to and what info will I need to get at the last minute (road closures, etc)
+
+**Parts of the Agent**
+- collect information
+  - loose and hard constraints, optional GUI for input
+- suggest places to go
+- Mitigating factors - reasons why this trip might be bad right now (mosquitos, road closures, fires, etc)
+
+** Info sources **
+
+> UI to return some options that you can click on and get more information for
+
+**Use Cases
+**- Suggest trips 
+- Tell you the optimal booking window
+- Summarizing reviews and info about the best time of year to go 
+- Short term / next weekend suggest sites that don't need 
+
+**Features
+**- suggest campsites
+- refine query based on UI with sliders, filters
+- last step does a visit to the site to make sure its open
+
+
+**Capabilities Questions
+**Can we zero shot feed in raw html to an llm and have it determine if a campsite is open or closed, reliably 
+
+
+Some way to narrow in area: 
+draw on map, enter list of state codes, within X hours of Y driving,
+
+* + - + = 
